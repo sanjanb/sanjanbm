@@ -551,7 +551,6 @@ export default function Home() {
                   >
                     email
                   </a>
-                  {" "}. Phone: +91 9535752673
                 </p>
               </div>
             </div>
