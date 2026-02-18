@@ -262,9 +262,9 @@ export default function Home() {
               <div className="space-y-12">
                 <ExperienceItem
                   title="SynerSense Pvt. Ltd."
-                  role="Vision Language Model Developer and Research Intern, Ahmedabad, Gujarat (Remote)"
+                  role={<><a href="https://huggingface.co/blog/vlms" target="_blank" rel="noopener noreferrer" className="underline underline-offset-2 hover:text-black dark:hover:text-white">VLM</a> Developer and Research Intern · Jun 2025 – Present · Ahmedabad, Gujarat (Remote)</>}
                   collapsible={true}
-                  link="https://sanjanb.github.io/"
+                  link="https://sanjanb.github.io/Internship-log/"
                 >
                   <div className="space-y-2">
                     <p>I'm building vision-language pipelines using CLIP and custom VLMs, integrating visual embeddings into MLP classifiers to improve multi-modal accuracy by about 18% on benchmarks.</p>
