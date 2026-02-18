@@ -322,17 +322,17 @@ export default function Home() {
                   collapsible={true}
                 >
                   <div className="space-y-4">
-                    <p>My projects show a progression from basics to more integrated systems. It started with the <span className="font-medium">Admission Automation System</span>, a national hackathon winner where I built an AI setup with OCR (Tesseract), NLP, and a custom SLM via DistilBERT for data extraction, hitting over 95% accuracy and cutting verification time by 60%. Used FastAPI for scalable pipelines.</p>
+                    <p>My projects trace a path from core ideas to integrated AI systems. It kicked off with the <span className="font-medium">Admission Automation System</span>, a national hackathon winner where I integrated OCR (Tesseract), NLP, and a custom SLM via DistilBERT for data extraction, reaching over 95% accuracy and slashing verification time by 60%. I used FastAPI for modular, scalable pipelines with async handling.</p>
 
-                    <p>Then the <span className="font-medium">AI-Powered CTI System</span>, co-developing NLP for threat intel with spaCy and Transformers, automating IOC extraction at 90% accuracy, plus a FastAPI backend and Docker for deployment.</p>
+                    <p>Next, the <span className="font-medium">AI-Powered CTI System</span>, where I co-developed NLP for cyber threat intel using spaCy and Hugging Face Transformers, automating IOC extraction at 90% accuracy, with a FastAPI backend, Jinja2 dashboard, and Docker + Compose for 40% faster deployment.</p>
 
-                    <p><span className="font-medium">GAN for Fashion Item Generation</span> followed, using TensorFlow and Keras to create realistic images, improving quality by 25% with tweaks like LeakyReLU, and MLflow for experiments.</p>
+                    <p>Then <span className="font-medium">GAN for Fashion Item Generation</span>, developing GANs with TensorFlow and Keras to generate realistic Fashion-MNIST images, boosting quality scores by 25% via LeakyReLU and Batch Normalization, plus MLflow for 30+ experiments.</p>
 
-                    <p><span className="font-medium">BERT-Based Sentiment Analysis</span> fine-tuned BERT on 50k IMDB reviews for 94% accuracy, including preprocessing and bias investigation via augmentation.</p>
+                    <p><span className="font-medium">BERT-Based Sentiment Analysis</span> fine-tuned BERT on 50k IMDB reviews for 94% accuracy, with full preprocessing like tokenization and bias mitigation through augmentation and weighted loss.</p>
 
-                    <p>Recent GitHub activity in February 2026 includes heavy commits to lifelab (111), follow-through-challenge (44), and my-digital-garden (42), leaning into productivity tools. With 4,526 contributions last year, mostly private, it's about consistency. But is quantity trumping quality? Some being forks suggest building on existing work—pushing more originals could shift that. Logic: Each iteration teaches, like stability in GANs, but public feedback might refine faster.</p>
+                    <p>Recent GitHub pushes in February 2026 to lifelab (111 commits), follow-through-challenge (44), and my-digital-garden (42) shift toward productivity tools. With 4,526 contributions last year, many private, it's about steady output. But does volume beat targeted depth? Relying on forks means iterating on existing bases—more originals could change that. It adds up if each teaches specifics like GAN stability, but community input might accelerate.</p>
 
-                    <p className="font-medium text-black">So yes, each step builds on the last, even if early ones feel rough now.</p>
+                    <p className="font-medium text-black">So yes, each one advances the last, even if starters seem basic now.</p>
                   </div>
                 </ExperienceItem>
               </div>
