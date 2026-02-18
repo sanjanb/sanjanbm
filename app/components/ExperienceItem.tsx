@@ -9,29 +9,36 @@ interface ExperienceItemProps {
     children: React.ReactNode;
     collapsible?: boolean;
     link?: string;
+    linkLabel?: string;
+    date?: string;
     collapsedHeight?: string;
 }
 
-export function ExperienceItem({ title, role, children, collapsible = false, link, collapsedHeight = "max-h-20" }: ExperienceItemProps) {
+export function ExperienceItem({ title, role, children, collapsible = false, link, linkLabel = "↗", date, collapsedHeight = "max-h-20" }: ExperienceItemProps) {
     const [isExpanded, setIsExpanded] = useState(false);
 
     return (
         <div className="group">
-            <div className="mb-2 flex flex-col justify-between sm:flex-row sm:items-baseline">
-                <div className="flex items-center gap-2">
+            <div className="mb-2 flex flex-col gap-1">
+                <div className="flex flex-wrap items-center gap-2">
                     <span className="font-medium text-black dark:text-white">{title}</span>
+                    {date && (
+                        <span className="rounded-full border border-gray-200 dark:border-gray-800 px-2 py-0.5 text-[10px] font-medium text-gray-400 dark:text-gray-500 tabular-nums">
+                            {date}
+                        </span>
+                    )}
                     {link && (
                         <a
                             href={link}
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="text-xs text-gray-400 dark:text-gray-500 underline underline-offset-2 hover:text-black dark:hover:text-white"
+                            className="text-xs text-gray-400 dark:text-gray-500 underline underline-offset-2 hover:text-black dark:hover:text-white transition-colors"
                         >
-                            link
+                            {linkLabel}
                         </a>
                     )}
                 </div>
-                <span className="text-sm text-gray-400 dark:text-gray-500">{role}</span>
+                {role && <span className="text-sm text-gray-400 dark:text-gray-500">{role}</span>}
             </div>
 
             <div className={`relative max-w-xl text-sm leading-relaxed text-gray-500 dark:text-gray-400 transition-all duration-300 ${!isExpanded && collapsible ? `${collapsedHeight} overflow-hidden` : ""}`}>
@@ -44,7 +51,7 @@ export function ExperienceItem({ title, role, children, collapsible = false, lin
             {collapsible && (
                 <button
                     onClick={() => setIsExpanded(!isExpanded)}
-                    className="mt-2 flex items-center gap-1 text-xs font-medium text-gray-400 dark:text-gray-500 hover:text-black dark:hover:text-white"
+                    className="mt-2 flex items-center gap-1 text-xs font-medium text-gray-400 dark:text-gray-500 hover:text-black dark:hover:text-white transition-colors"
                 >
                     {isExpanded ? (
                         <>
