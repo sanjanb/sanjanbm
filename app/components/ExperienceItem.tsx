@@ -5,7 +5,7 @@ import { ChevronDown, ChevronUp } from "lucide-react";
 
 interface ExperienceItemProps {
     title: string;
-    role: string;
+    role: React.ReactNode;
     children: React.ReactNode;
     collapsible?: boolean;
     link?: string;
