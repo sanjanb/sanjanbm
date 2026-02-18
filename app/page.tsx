@@ -252,6 +252,21 @@ export default function Home() {
               </p>
             </div>
 
+            {/* Hero Stats */}
+            <div className="mt-8 mb-2 flex w-full flex-wrap gap-3">
+              {[
+                { label: "CGPA", value: "9.23" },
+                { label: "Contributions", value: "4,526" },
+                { label: "Research Accuracy", value: "98%" },
+                { label: "Students Mentored", value: "500+" },
+              ].map((stat) => (
+                <div key={stat.label} className="flex flex-col items-start rounded-xl border border-gray-100 dark:border-gray-800 px-4 py-3 transition-colors hover:border-gray-300 dark:hover:border-gray-600">
+                  <span className="text-lg font-bold text-black dark:text-white">{stat.value}</span>
+                  <span className="text-xs text-gray-400 dark:text-gray-500">{stat.label}</span>
+                </div>
+              ))}
+            </div>
+
             <NeuralNetworkSim />
 
             {/* Experience Section */}
@@ -262,9 +277,11 @@ export default function Home() {
               <div className="space-y-12">
                 <ExperienceItem
                   title="SynerSense Pvt. Ltd."
-                  role={<><a href="https://huggingface.co/blog/vlms" target="_blank" rel="noopener noreferrer" className="underline underline-offset-2 hover:text-black dark:hover:text-white">VLM</a> Developer and Research Intern· Ahmedabad, Gujarat (Remote)</>}
+                  date="Jun 2025 – Present"
+                  role={<><a href="https://huggingface.co/blog/vlms" target="_blank" rel="noopener noreferrer" className="underline underline-offset-2 hover:text-black dark:hover:text-white">VLM</a> Developer and Research Intern · Ahmedabad, Gujarat (Remote)</>}
                   collapsible={true}
                   link="https://sanjanb.github.io/Internship-log/"
+                  linkLabel="Internship Log ↗"
                 >
                   <div className="space-y-2">
                     <p>I'm building vision-language pipelines using CLIP and custom VLMs, integrating visual embeddings into MLP classifiers to improve multi-modal accuracy by about 18% on benchmarks.</p>
@@ -275,7 +292,8 @@ export default function Home() {
 
                 <ExperienceItem
                   title="IEEE CS Society – IAMPro"
-                  role="Deep Learning Project Intern, Bengaluru, Karnataka (Remote)"
+                  date="Jun 2024 – Aug 2024"
+                  role="Deep Learning Project Intern · Bengaluru, Karnataka (Remote)"
                   collapsible={true}
                 >
                   <div className="space-y-2">
@@ -287,7 +305,8 @@ export default function Home() {
 
                 <ExperienceItem
                   title="IEEE ATME Student Branch"
-                  role="Vice Chair, Mysuru"
+                  date="Sep 2024 – Present"
+                  role="Vice Chair · Mysuru"
                   collapsible={true}
                 >
                   <div className="space-y-2">
@@ -336,10 +355,10 @@ export default function Home() {
               <div className="space-y-12">
                 <ExperienceItem
                   title="ATME College of Engineering, Mysore"
-                  role="Bachelor of Engineering in Computer Science & AI/ML Engineering (Hons.)"
+                  date="Nov 2022 – Present"
+                  role="B.E. in Computer Science & AI/ML Engineering (Hons.) · CGPA 9.23"
                 >
-                  <p>Nov 2022 - Present | CGPA: 9.23</p>
-                  <p>Core subjects include Deep Learning, Python for Data Science, Data Structures, DBMS, OS, Probability, Discrete Structures. Am I assuming high grades guarantee opportunities? They help, but real-world impact from projects might matter more in hiring.</p>
+                  <p>Core subjects include Deep Learning, Python for Data Science, Data Structures, DBMS, OS, Probability, Discrete Structures.</p>
                 </ExperienceItem>
               </div>
             </div>
@@ -360,20 +379,17 @@ export default function Home() {
               <div className="space-y-12">
                 <ExperienceItem
                   title="Live Cell Stage Classification Using Deep Learning"
-                  role={<>INCOFT 2025 · International Conference on Futuristic Technology</>}
+                  date="2025"
+                  role="INCOFT 2025 · International Conference on Futuristic Technology"
                   collapsible={true}
                   collapsedHeight="max-h-40"
                 >
-                  <div className="space-y-4">
-                    <div className="space-y-1">
-                      <p className="text-sm text-gray-400 dark:text-gray-500 font-medium">
-                        Authors: Uma Mahesh R N, Kushal S M, Ponnanna K V, Sanjan B M, Vishnu S
-                      </p>
-                    </div>
-                    <div className="space-y-2">
-                      <p className="text-gray-600 dark:text-gray-400">We developed deep learning models — SCNN, ResNet50, and EfficientNetB0 — for classifying live cell stages in nematode cells, distinguishing Interphase from Mitosis. EfficientNetB0 achieved 98% test accuracy using transfer learning from ImageNet, data augmentation, and evaluation via PPV, sensitivity, F1-score, ROC, and confusion matrices.</p>
-                      <p className="text-gray-600 dark:text-gray-400">This builds on prior works with accuracies below 95%, aiming for better scalability in biomedical applications like cancer studies. As a published researcher, I've contributed to AI/ML research with papers under ATME, centering on deep learning and NLP.</p>
-                    </div>
+                  <div className="space-y-3">
+                    <p className="font-medium text-gray-500 dark:text-gray-400">
+                      Uma Mahesh R N, Kushal S M, Ponnanna K V, <span className="text-black dark:text-white">Sanjan B M</span>, Vishnu S
+                    </p>
+                    <p>We developed deep learning models — SCNN, ResNet50, and EfficientNetB0 — for classifying live cell stages in nematode cells, distinguishing Interphase from Mitosis. EfficientNetB0 achieved 98% test accuracy using transfer learning from ImageNet, data augmentation, and evaluation via PPV, sensitivity, F1-score, ROC, and confusion matrices.</p>
+                    <p>This builds on prior works with accuracies below 95%, aiming for better scalability in biomedical applications like cancer studies.</p>
                   </div>
                 </ExperienceItem>
               </div>
@@ -390,43 +406,38 @@ export default function Home() {
               <TechStack />
             </div>
 
-            {/* Recommendations by Clients Section */}
-            <div className="mb-16 w-full text-left">
-              <h2 className="mb-6 text-xs font-bold uppercase tracking-widest text-gray-400 dark:text-gray-500">
-                Recommendations by Clients
-              </h2>
-              <div className="space-y-8">
-                {/* Recommendations by Clients - Placeholder until provided */}
-                <p className="text-gray-600 dark:text-gray-400">
-                  Not publicly detailed yet, but my hackathon wins and IEEE role imply strong feedback. Collecting endorsements on LinkedIn would strengthen this.
-                </p>
-              </div>
-            </div>
-
-            {/* Videos Section */}
-            <div className="mb-16 w-full text-left">
-              <h2 className="mb-6 text-xs font-bold uppercase tracking-widest text-gray-400 dark:text-gray-500">
-                Explainer Videos
-              </h2>
-              <p className="mb-8 text-lg text-gray-600 dark:text-gray-400">
-                No dedicated channel, but demos paired with my blog posts could explain projects like the CTI system—YouTube would make them more accessible.
-              </p>
-            </div>
-
             {/* Writings & Blogs Section */}
             <div className="mb-16 w-full text-left">
               <h2 className="mb-6 text-xs font-bold uppercase tracking-widest text-gray-400 dark:text-gray-500">
                 Writings & Blogs
               </h2>
-              <p className="w-full text-lg leading-relaxed text-gray-600 dark:text-gray-400">
-                I share thoughts on my portfolio site, keeping it simple.
-                <br />
-                <a href="https://sanjanb.github.io/" className="underline">My AI/ML Specialization Journey: From Foundations to Advanced LLM Applications</a> (Sep 13, 2025)
-                <br />
-                <a href="https://sanjanb.github.io/" className="underline">Advanced Blog Formatting Guide: Mastering Jekyll and al-folio Techniques</a> (Jan 15, 2025)
-                <br /><br />
-                Is a personal site assuming enough reach? Medium could expand audience, but control here is key. Adding project deep-dives, like bias in BERT, would add value.
-              </p>
+              <div className="space-y-4">
+                {[
+                  {
+                    title: "My AI/ML Specialization Journey: From Foundations to Advanced LLM Applications",
+                    date: "Sep 13, 2025",
+                    href: "https://sanjanb.github.io/",
+                  },
+                  {
+                    title: "Advanced Blog Formatting Guide: Mastering Jekyll and al-folio Techniques",
+                    date: "Jan 15, 2025",
+                    href: "https://sanjanb.github.io/",
+                  },
+                ].map((post) => (
+                  <a
+                    key={post.title}
+                    href={post.href}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="group flex items-start justify-between gap-4 rounded-xl border border-gray-100 dark:border-gray-800 p-4 transition-all hover:border-gray-300 dark:hover:border-gray-600"
+                  >
+                    <span className="text-sm font-medium text-black dark:text-white group-hover:underline underline-offset-4">
+                      {post.title}
+                    </span>
+                    <span className="shrink-0 text-xs text-gray-400 dark:text-gray-500 tabular-nums">{post.date}</span>
+                  </a>
+                ))}
+              </div>
             </div>
 
             {/* Library Section */}
