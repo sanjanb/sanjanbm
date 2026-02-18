@@ -194,7 +194,7 @@ export default function Home() {
 
             {/* Hero Text */}
             <h1 className="mb-4 text-5xl font-bold tracking-tight sm:text-7xl">
-              Sanjan B M
+              Sanjan Acharya
             </h1>
 
             {/* Phonetic Pronunciation (Aesthetic touch often found in minimal portfolios) */}

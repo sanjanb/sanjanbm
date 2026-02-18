@@ -7,9 +7,9 @@ But let's check that self-view. Am I assuming that sticking strictly to AI/ML wi
 
 ## Experience
 ### SynerSense Pvt. Ltd.
-**Vision Language Model Developer and Research Intern**  
+**VLM [https://huggingface.co/blog/vlms](https://huggingface.co/blog/vlms) Developer and Research Intern**  
 Jun 2025 - Present | Ahmedabad, Gujarat (Remote)  
-[https://sanjanb.github.io/](https://sanjanb.github.io/)  
+[https://sanjanb.github.io/Internship-log/](https://sanjanb.github.io/Internship-log/)  
 I'm building vision-language pipelines using CLIP and custom VLMs, integrating visual embeddings into MLP classifiers to improve multi-modal accuracy by about 18% on benchmarks. I've also written over 25 pages of technical docs on GitHub Pages to speed up onboarding, and set up MLflow for tracking more than 50 experiments, making comparisons easier. This role sharpens my research skills, but is early specialization assuming VLMs are the future? Maybe, though diversifying into edge AI could add versatility.
 
 ### IEEE CS Society – IAMPro
@@ -22,21 +22,14 @@ I'm developing AI models for pest detection with image recognition, boosting ear
 Sept 2024 – Present | Mysuru  
 I'm leading over five workshops and hackathons on AI/ML, engaging more than 500 students, and coordinating industry talks to bring in fresh insights. This builds on my open-source contributions through SWOC and GirlScript. Am I relying on these for resume boosts? It's valid for networking, but another view: It might dilute time for personal coding. The logic checks if it leads to collaborations, though I'd track how many turn into ongoing projects.
 
-From my resume, I also had a Software Developer role at NCompass TechStudio as an entry into dev work, with a move to Ahmedabad. That highlights adaptability, but was the assumption that in-person opportunities trump remote ones accurate, or could staying put have allowed deeper focus on studies?
-
 ## In Between These Experiences
 ### The Project Building Journey
-My projects show a progression from basics to more integrated systems. It started with the Admission Automation System, a national hackathon winner where I built an AI setup with OCR (Tesseract), NLP, and a custom SLM via DistilBERT for data extraction, hitting over 95% accuracy and cutting verification time by 60%. Used FastAPI for scalable pipelines.
-
-Then the AI-Powered CTI System, co-developing NLP for threat intel with spaCy and Transformers, automating IOC extraction at 90% accuracy, plus a FastAPI backend and Docker for deployment.
-
-GAN for Fashion Item Generation followed, using TensorFlow and Keras to create realistic images, improving quality by 25% with tweaks like LeakyReLU, and MLflow for experiments.
-
-BERT-Based Sentiment Analysis fine-tuned BERT on 50k IMDB reviews for 94% accuracy, including preprocessing and bias investigation via augmentation.
-
-Recent GitHub activity in February 2026 includes heavy commits to lifelab (111), follow-through-challenge (44), and my-digital-garden (42), leaning into productivity tools. With 4,526 contributions last year, mostly private, it's about consistency. But is quantity trumping quality? Some being forks suggest building on existing work—pushing more originals could shift that. Logic: Each iteration teaches, like stability in GANs, but public feedback might refine faster.
-
-So yes, each step builds on the last, even if early ones feel rough now.
+My projects trace a path from core ideas to integrated AI systems. It kicked off with the Admission Automation System, a national hackathon winner where I integrated OCR (Tesseract), NLP, and a custom SLM via DistilBERT for data extraction, reaching over 95% accuracy and slashing verification time by 60%. I used FastAPI for modular, scalable pipelines with async handling.
+Next, the AI-Powered CTI System, where I co-developed NLP for cyber threat intel using spaCy and Hugging Face Transformers, automating IOC extraction at 90% accuracy, with a FastAPI backend, Jinja2 dashboard, and Docker + Compose for 40% faster deployment.
+Then GAN for Fashion Item Generation, developing GANs with TensorFlow and Keras to generate realistic Fashion-MNIST images, boosting quality scores by 25% via LeakyReLU and Batch Normalization, plus MLflow for 30+ experiments.
+BERT-Based Sentiment Analysis fine-tuned BERT on 50k IMDB reviews for 94% accuracy, with full preprocessing like tokenization and bias mitigation through augmentation and weighted loss.
+Recent GitHub pushes in February 2026 to lifelab (111 commits), follow-through-challenge (44), and my-digital-garden (42) shift toward productivity tools. With 4,526 contributions last year, many private, it's about steady output. But does volume beat targeted depth? Relying on forks means iterating on existing bases—more originals could change that. It adds up if each teaches specifics like GAN stability, but community input might accelerate.
+So yes, each one advances the last, even if starters seem basic now.
 
 ## Education
 ### ATME College of Engineering, Mysore
