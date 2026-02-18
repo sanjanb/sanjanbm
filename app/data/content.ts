@@ -10,8 +10,9 @@ I see myself as someone who blends hands-on coding with leadership in student gr
 ## Experience
 
 ### SynerSense Pvt. Ltd.
-**Vision Language Model Developer and Research Intern**
-[https://sanjanb.github.io/](https://sanjanb.github.io/)
+**[VLM](https://huggingface.co/blog/vlms) Developer and Research Intern**
+Jun 2025 - Present | Ahmedabad, Gujarat (Remote)
+[Internship Log](https://sanjanb.github.io/Internship-log/)
 
 I'm building vision-language pipelines using CLIP and custom VLMs, integrating visual embeddings into MLP classifiers to improve multi-modal accuracy by about 18% on benchmarks.
 

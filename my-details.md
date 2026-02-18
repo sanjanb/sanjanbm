@@ -7,9 +7,9 @@ But let's check that self-view. Am I assuming that sticking strictly to AI/ML wi
 
 ## Experience
 ### SynerSense Pvt. Ltd.
-**VLM [https://huggingface.co/blog/vlms](https://huggingface.co/blog/vlms) Developer and Research Intern**  
+**[VLM](https://huggingface.co/blog/vlms) Developer and Research Intern**  
 Jun 2025 - Present | Ahmedabad, Gujarat (Remote)  
-[https://sanjanb.github.io/Internship-log/](https://sanjanb.github.io/Internship-log/)  
+[Internship Log](https://sanjanb.github.io/Internship-log/)  
 I'm building vision-language pipelines using CLIP and custom VLMs, integrating visual embeddings into MLP classifiers to improve multi-modal accuracy by about 18% on benchmarks. I've also written over 25 pages of technical docs on GitHub Pages to speed up onboarding, and set up MLflow for tracking more than 50 experiments, making comparisons easier. This role sharpens my research skills, but is early specialization assuming VLMs are the future? Maybe, though diversifying into edge AI could add versatility.
 
 ### IEEE CS Society – IAMPro
