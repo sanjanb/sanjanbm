@@ -252,7 +252,7 @@ export default function Home() {
               </p>
             </div>
 
-            {/* Hero Stats */}
+            {/* Hero Stats
             <div className="mt-8 mb-2 flex w-full flex-wrap gap-3">
               {[
                 { label: "CGPA", value: "9.23" },
@@ -265,7 +265,7 @@ export default function Home() {
                   <span className="text-xs text-gray-400 dark:text-gray-500">{stat.label}</span>
                 </div>
               ))}
-            </div>
+            </div> */}
 
             <NeuralNetworkSim />
 
