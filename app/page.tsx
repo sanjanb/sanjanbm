@@ -245,7 +245,7 @@ export default function Home() {
 
             <div className="w-full space-y-4 text-left text-base leading-relaxed text-gray-600 dark:text-gray-400 sm:text-lg md:text-xl">
               <p>
-                I'm a student pursuing a Bachelor of Engineering in Computer Science & AI/ML Engineering at ATME College of Engineering in Mysore, with a CGPA of 9.23 so far. I focus on building <a href="https://github.com/sanjanb" target="_blank" rel="noopener noreferrer" className="underline underline-offset-4 hover:text-black dark:hover:text-white transition-colors">AI tools</a> that tackle real issues, like automating workflows or analyzing data through machine learning.
+                I'm a student pursuing a Bachelor of Engineering in Computer Science & AI/ML Engineering at ATME College of Engineering in Mysore, with a CGPA of 9.24 so far. I focus on building <a href="https://github.com/sanjanb" target="_blank" rel="noopener noreferrer" className="underline underline-offset-4 hover:text-black dark:hover:text-white transition-colors">AI tools</a> that tackle real issues, like automating workflows or analyzing data through machine learning.
               </p>
               <p>
                 I see myself as someone who blends hands-on coding with leadership in student groups, keeping my work grounded in practical applications while exploring new tech.
