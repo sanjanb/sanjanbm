@@ -295,17 +295,6 @@ export default function Home() {
                     <p>Am I relying on these for resume boosts? It's valid for networking, but another view: It might dilute time for personal coding. The logic checks if it leads to collaborations, though I'd track how many turn into ongoing projects.</p>
                   </div>
                 </ExperienceItem>
-
-                <ExperienceItem
-                  title="NCompass TechStudio"
-                  role="Software Developer"
-                  collapsible={true}
-                >
-                  <div className="space-y-2">
-                    <p>From my resume, I also had a Software Developer role at NCompass TechStudio as an entry into dev work, with a move to Ahmedabad.</p>
-                    <p>That highlights adaptability, but was the assumption that in-person opportunities trump remote ones accurate, or could staying put have allowed deeper focus on studies?</p>
-                  </div>
-                </ExperienceItem>
               </div>
             </div>
 
