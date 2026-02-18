@@ -67,10 +67,13 @@ Core subjects include Deep Learning, Python for Data Science, Data Structures, D
 
 ## Research Publications
 
-### Research Contributions
-**Under ATME**
+### Live Cell Stage Classification Using Deep Learning
+**INCOFT 2025 – International Conference on Futuristic Technology**
+Authors: Uma Mahesh R N, Kushal S M, Ponnanna K V, Sanjan B M, Vishnu S
 
-I haven't listed full publications yet, but contributed to AI/ML research with papers submitted under ATME, focusing on deep learning and NLP. As a "Published Researcher" award notes, it's a start—submitting to journals could formalize it.
+We developed deep learning models (SCNN, ResNet50, EfficientNetB0) for classifying live cell stages in nematode cells, distinguishing Interphase from Mitosis. EfficientNetB0 achieved 98% test accuracy using transfer learning from ImageNet, data augmentation, and evaluation via PPV, sensitivity, F1-score, ROC, and confusion matrices.
+
+This builds on prior works with accuracies below 95%, aiming for better scalability in biomedical applications like cancer studies. As a published researcher, I've contributed to AI/ML research with papers under ATME, centering on deep learning and NLP.
 
 ## Tech Stack
 

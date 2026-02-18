@@ -359,19 +359,20 @@ export default function Home() {
               </h2>
               <div className="space-y-12">
                 <ExperienceItem
-                  title="Research Contributions"
-                  role="Under ATME"
+                  title="Live Cell Stage Classification Using Deep Learning"
+                  role={<>INCOFT 2025 · International Conference on Futuristic Technology</>}
                   collapsible={true}
                   collapsedHeight="max-h-40"
                 >
                   <div className="space-y-4">
                     <div className="space-y-1">
                       <p className="text-sm text-gray-400 dark:text-gray-500 font-medium">
-                        Focusing on Deep Learning and NLP
+                        Authors: Uma Mahesh R N, Kushal S M, Ponnanna K V, Sanjan B M, Vishnu S
                       </p>
                     </div>
                     <div className="space-y-2">
-                      <p className="text-gray-600 dark:text-gray-400">I haven't listed full publications yet, but contributed to AI/ML research with papers submitted under ATME, focusing on deep learning and NLP. As a "Published Researcher" award notes, it's a start—submitting to journals could formalize it.</p>
+                      <p className="text-gray-600 dark:text-gray-400">We developed deep learning models — SCNN, ResNet50, and EfficientNetB0 — for classifying live cell stages in nematode cells, distinguishing Interphase from Mitosis. EfficientNetB0 achieved 98% test accuracy using transfer learning from ImageNet, data augmentation, and evaluation via PPV, sensitivity, F1-score, ROC, and confusion matrices.</p>
+                      <p className="text-gray-600 dark:text-gray-400">This builds on prior works with accuracies below 95%, aiming for better scalability in biomedical applications like cancer studies. As a published researcher, I've contributed to AI/ML research with papers under ATME, centering on deep learning and NLP.</p>
                     </div>
                   </div>
                 </ExperienceItem>
